@@ -1,0 +1,175 @@
+<?php
+
+return [
+    "roles" => [
+        "teamMember" => [
+            "displayName" => "Team Member",
+            "value" => "teamMember",
+        ],
+        "scrumMaster" => [
+            "displayName" => "Scrum Master",
+            "value" => "scrumMaster",
+        ],
+    ],
+    "columnNames" => [
+        'whatWentWell',
+        'thanksKudos',
+        'toImprove',
+        'actionItem',
+    ],
+    "columns" => [
+        'whatWentWell' =>[
+            'name' => "What Went Well",
+            'color' => "teal",
+        ] ,
+        'thanksKudos' => [
+            "name" => "Thanks\Kudos",
+            "color"=> "pink",
+        ],
+        'toImprove' => [
+            "name" => "To Improve",
+            "color"=> "purple",
+        ],
+        'actionItem' => [
+            "name" => 'Action item',
+            'color'=> 'indigo',
+        ],
+    ],
+    'colors' => [
+        "red",
+        "pink",
+        "purple",
+        "deep-purple",
+        "indigo",
+        "blue",
+        "light-blue",
+        "cyan",
+        "teal",
+        "green",
+        "light-green",
+        "lime",
+        "yellow",
+        "amber",
+        "orange",
+        "deep-orange",
+        "brown",
+        "grey",
+        "blue-grey",
+    ],
+    "colorDetails" => [
+        "red" => [
+            "hex" => "#F44336",
+            "rgb" => "rgb(244, 67, 54)",
+            "bgCssClass" => "bg-red",
+            "txtCssClass" => "text-red",
+        ],
+        "pink" => [
+            "hex" => "#E91E63",
+            "rgb" => "rgb(233, 30, 99)",
+            "bgCssClass" => "bg-pink",
+            "txtCssClass" => "text-pink",
+        ],
+        "purple" => [
+            "hex" => "#9C27B0",
+            "rgb" => "rgb(156, 39, 176)",
+            "bgCssClass" => "bg-purple",
+            "txtCssClass" => "text-purple",
+        ],
+        "deep-purple" => [
+            "hex" => "#673AB7",
+            "rgb" => "rgb(103, 58, 183)",
+            "bgCssClass" => "bg-deep-purple",
+            "txtCssClass" => "text-deep-purple",
+        ],
+        "indigo" => [
+            "hex" => "#3F51B5",
+            "rgb" => "rgb(63, 81, 181)",
+            "bgCssClass" => "bg-indigo",
+            "txtCssClass" => "text-indigo",
+        ],
+        "blue" => [
+            "hex" => "#2196F3",
+            "rgb" => "rgb(33, 150, 243)",
+            "bgCssClass" => "bg-blue",
+            "txtCssClass" => "text-blue",
+        ],
+        "light-blue" => [
+            "hex" => "#03A9F4",
+            "rgb" => "rgb(3, 169, 244)",
+            "bgCssClass" => "bg-light-blue",
+            "txtCssClass" => "text-light-blue",
+        ],
+        "cyan" => [
+            "hex" => "#00BCD4",
+            "rgb" => "rgb(0, 188, 212)",
+            "bgCssClass" => "bg-cyan",
+            "txtCssClass" => "text-cyan",
+        ],
+        "teal" => [
+            "hex" => "#009688",
+            "rgb" => "rgb(0, 150, 136)",
+            "bgCssClass" => "bg-teal",
+            "txtCssClass" => "text-teal",
+        ],
+        "green" => [
+            "hex" => "#4CAF50",
+            "rgb" => "rgb(76, 175, 80)",
+            "bgCssClass" => "bg-green",
+            "txtCssClass" => "text-green",
+        ],
+        "light-green" => [
+            "hex" => "#8BC34A",
+            "rgb" => "rgb(139, 195, 74)",
+            "bgCssClass" => "bg-light-green",
+            "txtCssClass" => "text-light-green",
+        ],
+        "lime" => [
+            "hex" => "#CDDC39",
+            "rgb" => "rgb(205, 220, 57)",
+            "bgCssClass" => "bg-lime",
+            "txtCssClass" => "text-lime",
+        ],
+        "yellow" => [
+            "hex" => "#FFEB3B",
+            "rgb" => "rgb(255, 235, 59)",
+            "bgCssClass" => "bg-yellow",
+            "txtCssClass" => "text-yellow",
+        ],
+        "amber" => [
+            "hex" => "#FFC107",
+            "rgb" => "rgb(255, 193, 7)",
+            "bgCssClass" => "bg-amber",
+            "txtCssClass" => "text-amber",
+        ],
+        "orange" => [
+            "hex" => "#FF9800",
+            "rgb" => "rgb(255, 152, 0)",
+            "bgCssClass" => "bg-orange",
+            "txtCssClass" => "text-orange",
+        ],
+        "deep-orange" => [
+            "hex" => "#FF5722",
+            "rgb" => "rgb(255, 87, 34)",
+            "bgCssClass" => "bg-deep-orange",
+            "txtCssClass" => "text-deep-orange",
+        ],
+        "brown" => [
+            "hex" => "#795548",
+            "rgb" => "rgb(121, 85, 72)",
+            "bgCssClass" => "bg-brown",
+            "txtCssClass" => "text-brown",
+        ],
+        "grey" => [
+            "hex" => "#9E9E9E",
+            "rgb" => "rgb(158, 158, 158)",
+            "bgCssClass" => "bg-grey",
+            "txtCssClass" => "text-grey",
+        ],
+        "blue-grey" => [
+            "hex" => "#607D8B",
+            "rgb" => "rgb(96, 125, 139)",
+            "bgCssClass" => "bg-blue-grey",
+            "txtCssClass" => "text-blue-grey",
+        ],
+    ],
+];
